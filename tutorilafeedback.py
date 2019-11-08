@@ -18,7 +18,7 @@ for i in range(7):
 for i in range(2):
     keyboard.press(Key.tab)
     keyboard.release(Key.tab)
-    sleep(0.50)
+    sleep(0.050)
     keyboard.press(Key.right)
     keyboard.release(Key.right)
     keyboard.press(Key.left)

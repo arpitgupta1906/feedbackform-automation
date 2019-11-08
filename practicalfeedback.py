@@ -31,6 +31,7 @@ for i in range(1):
     sleep(0.050)
     keyboard.type('a')
 
-
+keyboard.press(Key.tab)
+keyboard.release(Key.tab)
 keyboard.press(Key.enter)
 keyboard.release(Key.enter)
