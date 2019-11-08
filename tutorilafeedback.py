@@ -1,11 +1,8 @@
 from pynput.keyboard import Key,Controller
-# from pynput.mouse import Controller as mousecontrol 
-# from pynput.mouse import Button
-
 from time import sleep
 
 keyboard= Controller()
-# m=mousecontrol()
+
 
 keyboard.press(Key.alt)
 keyboard.press(Key.tab)
@@ -16,7 +13,7 @@ sleep(0.50)
 for i in range(7):
     keyboard.press(Key.tab)
     keyboard.release(Key.tab)
-    sleep(0.50)       
+    sleep(0.050)       
 
 for i in range(2):
     keyboard.press(Key.tab)
