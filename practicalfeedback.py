@@ -11,12 +11,12 @@ keyboard.release(Key.alt)
 sleep(0.50)
 
 
-for i in range(8):
+for i in range(7):
     keyboard.press(Key.tab)
     keyboard.release(Key.tab)
     sleep(0.050)       
 
-for i in range(10):
+for i in range(7):
     keyboard.press(Key.tab)
     keyboard.release(Key.tab)
     sleep(0.10)

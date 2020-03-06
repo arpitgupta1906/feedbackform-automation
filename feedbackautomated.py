@@ -15,7 +15,7 @@ for i in range(7):
     keyboard.release(Key.tab)
     sleep(0.10)       
 
-for i in range(20):
+for i in range(18):
     keyboard.press(Key.tab)
     keyboard.release(Key.tab)
     sleep(0.10)
